@@ -780,40 +780,64 @@
 
 
 // ------chap14-16-----------------------------
-//Declare an empty array using JS literal notation to store student names in future.
-var studentNames = [];
-        
-//Declare an empty array using JS object notation to store student names in future.
-var studentNames = new Array();
+//==================================== chp15-17======================================================================
+// 01
+// var studentNames = [];
+// 02
+// var studentNames={};
+// 03
+// var name= ["ali" ,"zeba" , "karima"]
+// 04
+// var number = [3,4,34,3,43,3]
+// 05
+// var arr =[true , false];
+//06
+// var mixed = ["zys" , true ,89];
+// 07
+// var education  =["SSC" ,"HSC","BCS" ,"BS" ,"BCOM","MS" ,"M.PHIL","PHD"];
+// for(i=0; i<=education.length;i++){
+//   document.write(education[i]);
+// }
+//08
+// var name  =[ "ali","zara" , "mahnoor"]
+// var score= [23,43,34]
+// var total_marks =500;
+// for( var i=0; i<name.length;i++){
+//     var studentscore= score[i];
+//     var percentage= (studentscore/total_marks)*100;
+// }
+// document.write(name[i] +studentscore + percentage.toFixed(2) )
+// //09
+// let colors = ["Red", "Green", "Blue"];
+// document.write(colors.join(", "));
+// const colorToAddAtStart = prompt("Enter a color to add to the beginning of the array:");
+// colors.unshift(colorToAddAtStart);
 
-//Declare and initialize a strings array.
-var fruits = ["apple", "banana", "orange", "grape"];
-
-//Declare and initialize a numbers array.
-var numbers = [1, 2, 3, 4, 5,6,7,8,9,10];
-
-//Declare and initialize a boolean array.
-var booleanArray = [true, false, true, false];
-
-//Declare and initialize a mixed array.
-var mixedArray = [1, "apple", true, null, {name: "John"}, ["a", "b", "c"]];
-
-// Declare and Initialize an array and store available
-// education qualifications in Pakistan (e.g. SSC, HSC, BCS,
-// BS, BCOM, MS, M. Phil., PhD). Show the listed
-// qualifications in your browser like:
-
-var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
-
-document.write("<h3>Education Qualifications in Pakistan:</h3>");
-document.write("<ul>");
-
-for (var i = 0; i < qualifications.length; i++) {
-document.write("<li>" + qualifications[i] + "</li>");
-}
-
-document.write("</ul>");
-//question11
+// document.write("<h2>Array after adding color to the beginning:</h2>");
+// document.write(colors.join(", "));
+// const colorToAddAtEnd = prompt("Enter a color to add to the end of the array:");
+// colors.push(colorToAddAtEnd);
+// document.write("<h2>Array after adding color to the end:</h2>");
+// document.write(colors.join(", "));
+// colors.unshift("Purple", "Yellow");
+// document.write("<h2>Array after adding two colors to the beginning:</h2>");
+// document.write(colors.join(", "));
+// colors.shift();
+// document.write("<h2>Array after deleting the first color:</h2>");
+// document.write(colors.join(", "));
+// colors.pop();
+// document.write("<h2>Array after deleting the last color:</h2>");
+// document.write(colors.join(", "));
+// const indexToAdd = parseInt(prompt("Enter the index to add the color:"));
+// const colorToAdd = prompt("Enter the color to add:");
+// colors.splice(indexToAdd, 0, colorToAdd);
+// document.write("<h2>Array after adding color at a specific position:</h2>");
+// document.write(colors.join(", "));
+// const indexToDelete = parseInt(prompt("Enter the index from where you want to delete color(s):"));
+// const numToDelete = parseInt(prompt("Enter the number of colors to delete:"));
+// colors.splice(indexToDelete, numToDelete);
+// document.write("<h2>Array after deleting color(s) at a specific position:</h2>");
+// document.write(colors.join(", "));
 
 //Question12
 // var arr = ["This", "is", "my", "cat"];
