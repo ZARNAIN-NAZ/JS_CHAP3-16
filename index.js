@@ -544,7 +544,7 @@
     // }
     // Check if the second integer is greater than the first integer
     // else if (secondInteger > firstInteger) {
-    document.write("<h3>The larger number is: " + secondInteger + "</h3>");
+    // document.write("<h3>The larger number is: " + secondInteger + "</h3>");
     // }
     // If none of the above conditions match, the two integers are equal
     // else {
@@ -846,7 +846,7 @@
 // var result = arr.join(" ");
 
 // Display the result
-console.log(result);
+// console.log(result);
 
 //Question13
 // Create a new array
@@ -902,3 +902,71 @@ console.log(result);
 // document.write(selectMenu);
 
 
+// =========================================chapter 17-20=================================
+// qno1
+// var emptyArray = [[],[],[]]
+// qno2
+// var matrix = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ];
+//qno3
+// for(i=1; i<=10; i++){
+//     console.log(i)
+// }
+//qno4
+// const tableNumber = parseInt(prompt("Enter the table number:"));
+// const tableLength = parseInt(prompt("Enter the table length:"));
+
+// console.log(`Multiplication Table of ${tableNumber} (up to ${tableLength}):`);
+// for (let i = 1; i <= tableLength; i++) {
+//   const result = tableNumber * i;
+//   console.log(`${tableNumber} x ${i} = ${result}`);
+// }
+
+// qno5
+// var fruits = [ "apple", "banana" , "orange" , "stawberry"]
+// for(var i=0; i<fruits.length; i++)
+// {
+//     console.log(fruits[i]);
+// }
+
+//qno7
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Enter an item to search:");
+// var itemFound = A.includes(userInput);
+// if (itemFound) {
+//   alert(`Yes, "${userInput}" is found in the list!`);
+// } else {
+//   alert(`No, "${userInput}" is not found in the list.`);
+// }
+
+//qno8
+// var A = [24, 53, 78, 91, 12];
+// let largestNumber = A[0];
+// for (let i = 1; i < A.length; i++) {
+//   if (A[i] > largestNumber) {
+//     largestNumber = A[i];
+//   }
+// }
+// console.log("The largest number is: " + largestNumber);
+
+// var A = [24, 53, 78, 91, 12];
+
+//qno9
+// var smallestNumber = A[0];
+// for (let i = 1; i < A.length; i++) {
+//   if (A[i] < smallestNumber) {
+//     smallestNumber = A[i];
+//   }
+// }
+// console.log("The smallest number is: " + smallestNumber);
+
+//qno10
+// console.log("Multiples of 5 from 1 to 100:");
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
