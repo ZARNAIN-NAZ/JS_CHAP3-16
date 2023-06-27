@@ -970,3 +970,123 @@
 //     console.log(i);
 //   }
 // }
+// ===========================================chapter20-25=======================================================
+// Qno1
+// var num = prompt("enter first name ")
+// var num2 = prompt("enter last name ")
+// var merge= num + num2
+// alert("hello" +merge+"welcome");
+// Qno2
+// var enter  = prompt("enter mobile model")
+// var length  = enter.length;
+// document.write("the length of input is "+length)
+// Qnoo3
+// var word = "pakistani"
+// var index= word.indexOf("n");
+// document.write("the index of "+index)
+//Qno4
+// var word= "hello world"
+// var lastindex= word.lastIndexOf("l")
+// document.write(lastindex);
+
+//Qno5
+// var word = "pakistani";
+// var index=word.charAt(3)
+// document.write(index);
+
+// Qno6
+// var num = prompt ("enter first name " +"enter last name")
+// alert("hello" +num  );
+//Qno7
+// var city= "hyderabad"
+// var city2 = "islamabad"
+// var city3 = city2.replace(city)
+// alert(city3)
+
+//Qno8
+// var msg = " Ali and Sami are best friends. They play cricket and football together";
+// var newmsg = msg.replace(/and/g, "&");
+// document.write(newmsg);
+
+// Qno9
+// var s = "472";
+// var num = Number(s);
+// document.write(s +"<br>")
+// document.write(num +"<br>")
+// document.write(typeof s +"<br>")
+// document.write(typeof num +"<br>")
+
+// Qno10
+// var userInput = prompt("enter your input")
+// var converted = userInput.toUpperCase();
+// document.write(converted)
+
+
+// Q12
+// var num = 34.54;
+// var num2 = num.toString().replace(".","");
+// document.write(num2);
+
+// Q13
+// var uname = prompt("enter username")
+// if(uname.includes("@") || uname.includes(".") || uname.includes(",") || uname.includes("!"))
+// {
+//     uname = prompt("please enter valid name")
+// }
+// document.write(uname);
+
+// Q14
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Enter an item to search:");
+// var searchItem = userInput.toLowerCase();
+// var found = false;
+// for (var i = 0; i < items.length; i++) {
+//   if (items[i].toLowerCase() === searchItem) {
+//     found = true;
+//     break;
+//   }
+// }
+// if (found) {
+//   alert("The item \"" + userInput + "\" is found in the list.");
+// } else {
+//   alert("The item \"" + userInput + "\" is not found in the list.");
+// }
+// Q15
+// var password = prompt("Enter a password:");
+// if (
+//   password.length < 6 ||                          // Check length
+//   !(/[a-zA-Z]/.test(password) && /\d/.test(password)) ||    // Check alphabets and numbers
+//   /^\d/.test(password)                            // Check starts with a number
+// ) {
+//   password = prompt("Please enter a valid password that meets the requirements:\n\n- Contains alphabets and numbers\n- Does not start with a number\n- Is at least 6 characters long");
+// }
+// document.write("Password: " + password);
+
+//Q16
+// var university = "University of Karachi";
+// var array = university.split(" ");
+// for (var i = 0; i < array.length; i++) {
+//   document.write("Element " + i + ": " + array[i] + "<br>");
+// }
+
+// Q17
+// var userInput = prompt("Enter your input:");
+// var lastCharacter = userInput[userInput.length - 1];
+// document.write("Last character: " + lastCharacter);
+
+// Q18
+// var sentence = "The quick brown fox jumps over the lazy dog";
+// var lowercaseSentence = sentence.toLowerCase();
+// var word = "fox";
+// var words = lowercaseSentence.split(" ");
+// var count = 0;
+// for (var i = 0; i < words.length; i++) {
+//   if (words[i] === word) {
+//     count++;
+//   }
+// }
+// document.write("Number of occurrences of \"" + word + "\": " + count);
+
+
+
+
